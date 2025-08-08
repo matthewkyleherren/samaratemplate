@@ -33,11 +33,11 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/ee1d6169-a970-412d-a258-0cf7351a9f00/w=2200" alt="" class="newsroom-internal-image" data-downloadable="true" width="2200" height="1239" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/ee1d6169-a970-412d-a258-0cf7351a9f00/w=2200" alt="" class="newsroom-internal-image" data-downloadable="true" width="2200" height="1239" />
                         <div class="newsroom-image-download-button-captionless">
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/ee1d6169-a970-412d-a258-0cf7351a9f00/public"
+                                href="https://logmin.by.wrk.ltd/assets/remote/ee1d6169-a970-412d-a258-0cf7351a9f00/public"
                                 download="TIME_names_Samara’s_Backyard_a_Best_Invention_of_2024.jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
@@ -164,16 +164,19 @@
     <div class="modern-grid">
         <div class="column-3 m-column-0"></div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Addy Bhasin</div>
-                    <div class="type-18 color-text-60">LaunchSquad</div>
+                <div class="type-18">Addy Bhasin
+</div>
+                    <div class="type-18 color-text-60">LaunchSquad
+</div>
                 <div class="spacer-4"></div>
                 <a class="type-15" href="mailto:abhasin@launchsquad.com">abhasin@launchsquad.com</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Samara Press Helpline</div>
+                <div class="type-18">Samara Press Helpline
+</div>
                 <div class="spacer-4"></div>
-                <a class="type-15" href="mailto:press@samara.com">press@samara.com</a>
+                <a class="type-15" href="mailto:press@logmin.ch">press@logmin.ch</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
     </div>
@@ -384,7 +387,7 @@
                         <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
                     </div>
                 </div>
             </div>

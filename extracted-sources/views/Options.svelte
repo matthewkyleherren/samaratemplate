@@ -44,7 +44,7 @@
 		const isHello = document.body.classList.contains("hello");
 
 		if (isHello) {
-			location.href = "https://www.samara.com/showrooms";
+			location.href = "https://logmin.by.wrk.ltd/showrooms";
 			return;
 		}
 

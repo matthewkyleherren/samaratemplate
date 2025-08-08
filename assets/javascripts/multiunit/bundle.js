@@ -2479,7 +2479,7 @@ function Ue(t, e, n) {
             ["Address", s.data.address],
             ["About how many units are you considering?", s.data.howManyUnits],
             ["About the project", s.data.note]
-        ], o = `mailto:customercare@samara.com?subject=${e}&body=Feel free to replace this line with a message, but please leave the information below so we can help you.%0A%0A--------------- Please do not modify the information below this line ---------------%0A%0A${i.map((([t,e])=>e&&`${t}: ${e}`)).filter((t=>!!t)).join("%0A")}`))
+        ], o = `mailto:customercare@logmin.ch?subject=${e}&body=Feel free to replace this line with a message, but please leave the information below so we can help you.%0A%0A--------------- Please do not modify the information below this line ---------------%0A%0A${i.map((([t,e])=>e&&`${t}: ${e}`)).filter((t=>!!t)).join("%0A")}`))
     }, [s, l, r, c, i, o, async function() {
             n(1, l = !0), n(2, r = !1);
             try {

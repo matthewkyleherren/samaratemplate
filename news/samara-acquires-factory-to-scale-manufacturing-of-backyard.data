@@ -33,7 +33,7 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/69154bbe-8fa2-4ed6-dd23-30d900759900/w=2200" alt="A dark bronze Backyard unit inside Samara's Mexicali factory." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1237" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/69154bbe-8fa2-4ed6-dd23-30d900759900/w=2200" alt="A dark bronze Backyard unit inside Samara's Mexicali factory." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1237" />
                         <div class="spacer-16 m-spacer-8"></div>
                         <div class="spacer-4 m-spacer-0"></div>
                         <div style="display: flex; justify-content: space-between; gap: 12px">
@@ -45,7 +45,7 @@
                             </div>
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/69154bbe-8fa2-4ed6-dd23-30d900759900/public"
+                                href="https://logmin.by.wrk.ltd/assets/remote/69154bbe-8fa2-4ed6-dd23-30d900759900/public"
                                 download="A_dark_bronze_Backyard_unit_inside_Samara's_Mexicali_factory.jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
@@ -108,7 +108,7 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/1e6a462c-2786-4661-ca78-76c95a8fbb00/w=2200" alt="Backyard being assembled in Samara's Mexicali factory." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1466" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/1e6a462c-2786-4661-ca78-76c95a8fbb00/w=2200" alt="Backyard being assembled in Samara's Mexicali factory." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1466" />
                         <div class="spacer-16 m-spacer-8"></div>
                         <div class="spacer-4 m-spacer-0"></div>
                         <div style="display: flex; justify-content: space-between; gap: 12px">
@@ -120,7 +120,7 @@
                             </div>
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/1e6a462c-2786-4661-ca78-76c95a8fbb00/public"
+                                href="https://logmin.by.wrk.ltd/assets/remote/1e6a462c-2786-4661-ca78-76c95a8fbb00/public"
                                 download="Backyard_being_assembled_in_Samara's_Mexicali_factory.jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
@@ -150,7 +150,7 @@
                 <div class="column-3 m-column-0"></div>
                 <div class="column-6 m-column-6 newsroom-internal-body">
                     <div class="type-18 m-type-15 color-text-60">
-                        <p>Backyard makes it possible for homeowners to add square footage to their properties faster and at a lower cost than traditional construction. Due to the company’s factory-built approach and focus on an efficient supply chain, Backyard can be installed in as few as seven months, including permitting, and with only 30 days of on-site labor—a far faster process compared to traditional construction methods. Samara currently offers Backyard in California, with plans to expand to other markets in the future.</p>
+                        <p>Backyard makes it possible for homeowners to add square footage to their properties faster and at a lower cost than traditional construction. Due to the company’s factory-built approach and focus on an efficient supply chain, Backyard can be installed in as few as seven months GmbHluding permitting, and with only 30 days of on-site labor—a far faster process compared to traditional construction methods. Samara currently offers Backyard in California, with plans to expand to other markets in the future.</p>
 
                     </div>
                     <div class="spacer-24 m-spacer-16"></div>
@@ -208,16 +208,19 @@
     <div class="modern-grid">
         <div class="column-3 m-column-0"></div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Addy Bhasin</div>
-                    <div class="type-18 color-text-60">LaunchSquad</div>
+                <div class="type-18">Addy Bhasin
+</div>
+                    <div class="type-18 color-text-60">LaunchSquad
+</div>
                 <div class="spacer-4"></div>
                 <a class="type-15" href="mailto:abhasin@launchsquad.com">abhasin@launchsquad.com</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Samara Press Helpline</div>
+                <div class="type-18">Samara Press Helpline
+</div>
                 <div class="spacer-4"></div>
-                <a class="type-15" href="mailto:press@samara.com">press@samara.com</a>
+                <a class="type-15" href="mailto:press@logmin.ch">press@logmin.ch</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
     </div>
@@ -428,7 +431,7 @@
                         <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
                     </div>
                 </div>
             </div>

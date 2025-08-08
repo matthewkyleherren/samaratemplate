@@ -25,21 +25,21 @@
 
 <div class="modern-slideshow" data-tooltip="true">
     <img class="rounded-6 drop-shadow" width="4410" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-01/hero-01-1100.jpg 768w, /assets/images/showroom/hero-01/hero-01-2880.jpg" alt="Samara showroom"  />
+        srcset="/assets/images/showroom/hero-01/hero-01-1100.jpg 768w, /assets/images/showroom/hero-01/hero-01-2880.jpg" alt="Logmin showroom"  />
     <img class="rounded-6 drop-shadow" width="2243" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-02/hero-02-1100.jpg 768w, /assets/images/showroom/hero-02/hero-02-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-02/hero-02-1100.jpg 768w, /assets/images/showroom/hero-02/hero-02-2880.jpg" alt="Logmin showroom" />
     <img class="rounded-6 drop-shadow" width="1958" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-03/hero-03-1100.jpg 768w, /assets/images/showroom/hero-03/hero-03-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-03/hero-03-1100.jpg 768w, /assets/images/showroom/hero-03/hero-03-2880.jpg" alt="Logmin showroom" />
     <img class="rounded-6 drop-shadow" width="2397" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-04/hero-04-1100.jpg 768w, /assets/images/showroom/hero-04/hero-04-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-04/hero-04-1100.jpg 768w, /assets/images/showroom/hero-04/hero-04-2880.jpg" alt="Logmin showroom" />
     <img class="rounded-6 drop-shadow" width="1957" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-07/hero-07-1100.jpg 768w, /assets/images/showroom/hero-07/hero-07-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-07/hero-07-1100.jpg 768w, /assets/images/showroom/hero-07/hero-07-2880.jpg" alt="Logmin showroom" />
     <img class="rounded-6 drop-shadow" width="1961" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-08/hero-08-1100.jpg 768w, /assets/images/showroom/hero-08/hero-08-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-08/hero-08-1100.jpg 768w, /assets/images/showroom/hero-08/hero-08-2880.jpg" alt="Logmin showroom" />
     <img class="rounded-6 drop-shadow" width="1953" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-09/hero-09-1100.jpg 768w, /assets/images/showroom/hero-09/hero-09-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-09/hero-09-1100.jpg 768w, /assets/images/showroom/hero-09/hero-09-2880.jpg" alt="Logmin showroom" />
      <img class="rounded-6 drop-shadow" width="4410" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-06/hero-06-1100.jpg 768w, /assets/images/showroom/hero-06/hero-06-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-06/hero-06-1100.jpg 768w, /assets/images/showroom/hero-06/hero-06-2880.jpg" alt="Logmin showroom" />
 </div>
 
 <div class="page-section">
@@ -277,7 +277,7 @@
                         <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
                     </div>
                 </div>
             </div>

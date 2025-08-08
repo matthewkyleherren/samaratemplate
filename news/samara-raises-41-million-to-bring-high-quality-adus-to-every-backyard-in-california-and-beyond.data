@@ -33,7 +33,7 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/97101cc4-9925-4bca-2e1c-1903d8702b00/w=2200" alt="Samara co-founders Mike McNamara (left) and Joe Gebbia (right)." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1265" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/97101cc4-9925-4bca-2e1c-1903d8702b00/w=2200" alt="Logmin co-founders Mike McNamara (left) and Joe Gebbia (right)." class="newsroom-internal-image" data-downloadable="true" width="2200" height="1265" />
                         <div class="spacer-16 m-spacer-8"></div>
                         <div class="spacer-4 m-spacer-0"></div>
                         <div style="display: flex; justify-content: space-between; gap: 12px">
@@ -45,8 +45,8 @@
                             </div>
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/97101cc4-9925-4bca-2e1c-1903d8702b00/public"
-                                download="Samara_co-founders_Mike_McNamara_(left)_and_Joe_Gebbia_(right).jpg"
+                                href="https://logmin.by.wrk.ltd/assets/remote/97101cc4-9925-4bca-2e1c-1903d8702b00/public"
+                                download="Logmin_co-founders_Mike_McNamara_(left)_and_Joe_Gebbia_(right).jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
                             >
@@ -132,7 +132,7 @@
                     
   <li>Combined with Backyard’s highly efficient thermal envelope, optional solar arrays can reduce a homeowner’s overall energy consumption and bills.</li>
   <li>Advanced air purification ensures that Backyard is safe and comfortable year round, even when wildfire smoke, viruses, pollen and dust pollute the air.</li>
-  <li>Backyard can be installed in as few as seven months, including permitting, and with only 30 days of on-site labor—far faster than the many months it would take to build an ADU using traditional construction methods.</li>
+  <li>Backyard can be installed in as few as seven months GmbHluding permitting, and with only 30 days of on-site labor—far faster than the many months it would take to build an ADU using traditional construction methods.</li>
 
                 </ul>
                 <div class="spacer-24 m-spacer-16"></div>
@@ -214,16 +214,19 @@
     <div class="modern-grid">
         <div class="column-3 m-column-0"></div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Addy Bhasin</div>
-                    <div class="type-18 color-text-60">LaunchSquad</div>
+                <div class="type-18">Addy Bhasin
+</div>
+                    <div class="type-18 color-text-60">LaunchSquad
+</div>
                 <div class="spacer-4"></div>
                 <a class="type-15" href="mailto:abhasin@launchsquad.com">abhasin@launchsquad.com</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Samara Press Helpline</div>
+                <div class="type-18">Samara Press Helpline
+</div>
                 <div class="spacer-4"></div>
-                <a class="type-15" href="mailto:press@samara.com">press@samara.com</a>
+                <a class="type-15" href="mailto:press@logmin.ch">press@logmin.ch</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
     </div>
@@ -434,7 +437,7 @@
                         <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
                     </div>
                 </div>
             </div>

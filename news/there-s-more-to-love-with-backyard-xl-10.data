@@ -33,7 +33,7 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/41ee3e70-8ddb-44cb-7167-630e6f019200/w=2200" alt="Backyard XL 10 in parchment smooth-coated steel cladding." class="newsroom-internal-image" data-downloadable="true" width="2000" height="1125" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/41ee3e70-8ddb-44cb-7167-630e6f019200/w=2200" alt="Backyard XL 10 in parchment smooth-coated steel cladding." class="newsroom-internal-image" data-downloadable="true" width="2000" height="1125" />
                         <div class="spacer-16 m-spacer-8"></div>
                         <div class="spacer-4 m-spacer-0"></div>
                         <div style="display: flex; justify-content: space-between; gap: 12px">
@@ -45,7 +45,7 @@
                             </div>
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/41ee3e70-8ddb-44cb-7167-630e6f019200/public"
+                                href="https://logmin.by.wrk.ltd/assets/remote/41ee3e70-8ddb-44cb-7167-630e6f019200/public"
                                 download="Backyard_XL_10_in_parchment_smooth-coated_steel_cladding.jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
@@ -114,7 +114,7 @@
             <div class="modern-grid">
                 <div class="column-1 m-column-0"></div>
                 <div class="column-10 m-column-6">
-                    <img src="https://www.samara.com/assets/remote/2e5d0f0e-1aff-4443-24bc-65dbdc094900/w=2200" alt="Backyard XL 10's generous living room and kitchen." class="newsroom-internal-image" data-downloadable="true" width="2000" height="1500" />
+                    <img src="https://logmin.by.wrk.ltd/assets/remote/2e5d0f0e-1aff-4443-24bc-65dbdc094900/w=2200" alt="Backyard XL 10's generous living room and kitchen." class="newsroom-internal-image" data-downloadable="true" width="2000" height="1500" />
                         <div class="spacer-16 m-spacer-8"></div>
                         <div class="spacer-4 m-spacer-0"></div>
                         <div style="display: flex; justify-content: space-between; gap: 12px">
@@ -126,7 +126,7 @@
                             </div>
                             <a
                                 class="type-14 m-type-12 type-regola-regular newsroom-image-download-button"
-                                href="https://www.samara.com/assets/remote/2e5d0f0e-1aff-4443-24bc-65dbdc094900/public"
+                                href="https://logmin.by.wrk.ltd/assets/remote/2e5d0f0e-1aff-4443-24bc-65dbdc094900/public"
                                 download="Backyard_XL_10's_generous_living_room_and_kitchen.jpg"
                                 target="_blank"
                                 style="white-space: nowrap;"
@@ -160,7 +160,7 @@
                 <div class="column-3 m-column-0"></div>
                 <div class="column-6 m-column-6 newsroom-internal-body">
                     <div class="type-18 m-type-15 color-text-60">
-                        <p>Explore the possibilities of Backyard XL 10 and discover additional models on our <a href="https://www.samara.com/backyard/">website</a>.</p>
+                        <p>Explore the possibilities of Backyard XL 10 and discover additional models on our <a href="https://logmin.by.wrk.ltd/backyard/">website</a>.</p>
 
                     </div>
                     <div class="spacer-24 m-spacer-16"></div>
@@ -218,16 +218,19 @@
     <div class="modern-grid">
         <div class="column-3 m-column-0"></div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Addy Bhasin</div>
-                    <div class="type-18 color-text-60">LaunchSquad</div>
+                <div class="type-18">Addy Bhasin
+</div>
+                    <div class="type-18 color-text-60">LaunchSquad
+</div>
                 <div class="spacer-4"></div>
                 <a class="type-15" href="mailto:abhasin@launchsquad.com">abhasin@launchsquad.com</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
             <div class="column-3 m-column-6">
-                <div class="type-18">Samara Press Helpline</div>
+                <div class="type-18">Samara Press Helpline
+</div>
                 <div class="spacer-4"></div>
-                <a class="type-15" href="mailto:press@samara.com">press@samara.com</a>
+                <a class="type-15" href="mailto:press@logmin.ch">press@logmin.ch</a>
                 <div class="spacer-0 m-spacer-16"></div>
             </div>
     </div>
@@ -438,7 +441,7 @@
                         <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
                     </div>
                 </div>
             </div>
