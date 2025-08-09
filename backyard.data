@@ -19,7 +19,7 @@
             <div class="xl-10-parallax-container">
                 <img
                     class="xl-10-back xl-10-parallax"
-                    srcset="/assets/images/backyard/hero-xl-10-sky/hero-xl-10-sky-2880.webp 768w, /assets/images/backyard/hero-xl-10-sky/hero-xl-10-sky-2880.webp"
+                        srcset="/assets/images/backyard/hero-house/fg.webp 768w, /assets/images/backyard/hero-house/fg.webp"
                     width="1440"
                     height="1440"
                     alt="Backyard XL 10"
@@ -31,7 +31,7 @@
                 <a href="/backyard/xl-10" title="Backyard XL 10">
                     <img
                         class="xl-10-front xl-10-parallax"
-                        srcset="/assets/images/backyard/hero-xl-10/hero-xl-10-2880.webp 768w, /assets/images/backyard/hero-xl-10/hero-xl-10-2880.webp"
+                        srcset="/assets/images/backyard/hero-house/hero.webp 768w, /assets/images/backyard/hero-house/hero.webp"
                         width="1440"
                         height="1440"
                         alt="Backyard XL 10"
