@@ -1,4 +1,6 @@
-import { DateTime } from "luxon";
+import {
+    DateTime
+} from "luxon";
 
 export function simpleFormattedLuxonTime(date) {
     return date

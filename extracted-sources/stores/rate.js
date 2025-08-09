@@ -1,5 +1,9 @@
-import intake, { LOAN_TYPE } from "./intake";
-import { derived } from "svelte/store";
+import intake, {
+    LOAN_TYPE
+} from "./intake";
+import {
+    derived
+} from "svelte/store";
 
 const CLTV_BUCKETS = [0.0, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85];
 const CUSTOMER_INTEREST_BUCKETS = [700, 730, 760, Infinity];
@@ -125,11 +129,15 @@ function baseRateWithDownPayment(downPayment, $intake) {
     const loanAmountToBorrow = $intake.data.cost * (1.0 - downPayment);
 
     if (loanAmountToBorrow < 150_000) {
-        return { rejected: "loan amount is too low" };
+        return {
+            rejected: "loan amount is too low"
+        };
     }
 
     if (loanAmountToBorrow > 550_000) {
-        return { rejected: "loan amount is too high" };
+        return {
+            rejected: "loan amount is too high"
+        };
     }
 
     const combinedLoan =
@@ -141,15 +149,13 @@ function baseRateWithDownPayment(downPayment, $intake) {
 
     if (loanAmountToBorrow === $intake.data.cost && cltvWithoutAdu > 0.9) {
         return {
-            rejected:
-                "loan amount to borrow is equal to adu cost and cltv without adu is greater than 0.9"
+            rejected: "loan amount to borrow is equal to adu cost and cltv without adu is greater than 0.9"
         };
     }
 
     if ($intake.data.helocBalance > 0 && cltvWithoutAdu > 0.9) {
         return {
-            rejected:
-                "heloc balance is positive and cltv without adu is greater than 0.9"
+            rejected: "heloc balance is positive and cltv without adu is greater than 0.9"
         };
     }
 
@@ -166,7 +172,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
     const cltvBucketIndex = bucketIndex(cltv, CLTV_BUCKETS);
 
     if (cltvBucketIndex < 0) {
-        return { rejected: "out of cltv buckets" };
+        return {
+            rejected: "out of cltv buckets"
+        };
     }
 
     const customerInterestRateBucketIndex = bucketIndex(
@@ -175,7 +183,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
     );
 
     if (customerInterestRateBucketIndex < 0) {
-        return { rejected: "out of customer interest rate buckets" };
+        return {
+            rejected: "out of customer interest rate buckets"
+        };
     }
 
     const customerInterestRate =
@@ -189,7 +199,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
         const adjuster = SECOND_HOME_RATE_ADJUSTERS[cltvBucketIndex];
 
         if (adjuster === undefined) {
-            return { rejected: "out of second home buckets" };
+            return {
+                rejected: "out of second home buckets"
+            };
         }
 
         baseRate += adjuster;
@@ -199,7 +211,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
         const adjuster = INVESTOR_ADJUSTERS[cltvBucketIndex];
 
         if (adjuster === undefined) {
-            return { rejected: "out of insvetment buckets" };
+            return {
+                rejected: "out of insvetment buckets"
+            };
         }
 
         baseRate += adjuster;
@@ -209,7 +223,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
         const adjuster = INTEREST_ONLY_ADJUSTERS[cltvBucketIndex];
 
         if (adjuster === undefined) {
-            return { rejected: "out of interest only buckets" };
+            return {
+                rejected: "out of interest only buckets"
+            };
         }
 
         baseRate += adjuster;
@@ -219,7 +235,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
         const adjuster = LOAN_BALANCE_250_ADJUSTERS[cltvBucketIndex];
 
         if (adjuster === undefined) {
-            return { rejected: "out of loan amount to borrow buckets" };
+            return {
+                rejected: "out of loan amount to borrow buckets"
+            };
         }
 
         baseRate += adjuster;
@@ -229,7 +247,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
         const adjuster = NOT_EMPLOYED_ADJUSTERS[cltvBucketIndex];
 
         if (adjuster === undefined) {
-            return { rejected: "out of employment buckets" };
+            return {
+                rejected: "out of employment buckets"
+            };
         }
 
         baseRate += adjuster;
@@ -243,7 +263,9 @@ function baseRateWithDownPayment(downPayment, $intake) {
 
 export function calculateFinancing($intake, termYears) {
     if ($intake.data.helocBalance > 50_000) {
-        return { rejected: "heloc balance too high" };
+        return {
+            rejected: "heloc balance too high"
+        };
     }
 
     let minimumDownPayment = 1.0;
@@ -268,7 +290,9 @@ export function calculateFinancing($intake, termYears) {
     }
 
     if (minimumDownPayment === 1.0) {
-        return { rejected: "minimum down payment is too high" };
+        return {
+            rejected: "minimum down payment is too high"
+        };
     }
 
     const downPayment = Math.min(
@@ -276,7 +300,11 @@ export function calculateFinancing($intake, termYears) {
         maximumDownPayment
     );
 
-    const { baseRate, loanAmountToBorrow, rejected } = baseRateWithDownPayment(
+    const {
+        baseRate,
+        loanAmountToBorrow,
+        rejected
+    } = baseRateWithDownPayment(
         downPayment,
         $intake
     );
@@ -302,8 +330,8 @@ export function calculateFinancing($intake, termYears) {
                 -monthlyPayment,
                 loanAmountToBorrow - closingCosts
             ) *
-                12 *
-                1000
+            12 *
+            1000
         ) / 1000;
 
     return {

@@ -1,7 +1,12 @@
 import config from "../../../../../.backyard/config.js";
-import { completeConfiguration, variantAtKeyPath } from "../common/options.js";
+import {
+    completeConfiguration,
+    variantAtKeyPath
+} from "../common/options.js";
 import configuration from "./configuration.js";
-import { derived } from "svelte/store";
+import {
+    derived
+} from "svelte/store";
 
 function costAtKey(costKey, variantKey, optionKey, configuration) {
     let total = 0;
@@ -49,13 +54,13 @@ export function costForConfiguration(currentConfiguration) {
 
     const base = Object.entries(configuration).reduce(
         (result, [optionKey, variantKey]) =>
-            result +
-            baseCostForVariantWithKey(
-                variantKey,
-                optionKey,
-                configuration,
-                true
-            ),
+        result +
+        baseCostForVariantWithKey(
+            variantKey,
+            optionKey,
+            configuration,
+            true
+        ),
         0
     );
 
@@ -67,19 +72,23 @@ export function costForConfiguration(currentConfiguration) {
         baseDeliveryCost +
         Object.entries(configuration).reduce(
             (result, [optionKey, variantKey]) =>
-                result +
-                installationCostForVariantWithKey(
-                    variantKey,
-                    optionKey,
-                    configuration,
-                    true
-                ),
+            result +
+            installationCostForVariantWithKey(
+                variantKey,
+                optionKey,
+                configuration,
+                true
+            ),
             0
         );
 
     const total = base + installation;
 
-    return { total, installation, base };
+    return {
+        total,
+        installation,
+        base
+    };
 }
 
 const store = derived([configuration], ([$configuration]) =>

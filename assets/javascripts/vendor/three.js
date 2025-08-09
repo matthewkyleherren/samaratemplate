@@ -3419,13 +3419,11 @@ THREE.Geometry.prototype = {
                     f = this.faces[c];
                     i = new THREE.Vector3();
                     j =
-                        f instanceof THREE.Face3 ?
-                        {
+                        f instanceof THREE.Face3 ? {
                             a: new THREE.Vector3(),
                             b: new THREE.Vector3(),
                             c: new THREE.Vector3()
-                        } :
-                        {
+                        } : {
                             a: new THREE.Vector3(),
                             b: new THREE.Vector3(),
                             c: new THREE.Vector3(),
@@ -11806,9 +11804,7 @@ THREE.WebGLRenderer = function(a) {
                                             else if (x.size === 3) {
                                                 var Z;
                                                 Z =
-                                                    x.type === "c" ?
-                                                    ["r", "g", "b"] :
-                                                    ["x", "y", "z"];
+                                                    x.type === "c" ? ["r", "g", "b"] : ["x", "y", "z"];
                                                 if (
                                                     x.boundTo === void 0 ||
                                                     x.boundTo === "vertices"
@@ -12607,8 +12603,7 @@ THREE.WebGLRenderer = function(a) {
                     "morphTargetInfluences"
                 ];
             c.useVertexTexture ?
-            d.push("boneTexture") :
-                d.push("boneGlobalMatrices");
+            d.push("boneTexture") : d.push("boneGlobalMatrices");
             for (t in o) d.push(t);
             t = d;
             d = 0;
@@ -16924,21 +16919,19 @@ THREE.FlyControls = function(a, b) {
         this.rotationVector.z = -this.moveState.rollRight + this.moveState.rollLeft;
     };
     this.getContainerDimensions = function() {
-        return this.domElement != document ?
-            {
-                size: [
-                    this.domElement.offsetWidth,
-                    this.domElement.offsetHeight
-                ],
-                offset: [
-                    this.domElement.offsetLeft,
-                    this.domElement.offsetTop
-                ]
-            } :
-            {
-                size: [window.innerWidth, window.innerHeight],
-                offset: [0, 0]
-            };
+        return this.domElement != document ? {
+            size: [
+                this.domElement.offsetWidth,
+                this.domElement.offsetHeight
+            ],
+            offset: [
+                this.domElement.offsetLeft,
+                this.domElement.offsetTop
+            ]
+        } : {
+            size: [window.innerWidth, window.innerHeight],
+            offset: [0, 0]
+        };
     };
     this.domElement.addEventListener(
         "mousemove",
@@ -18092,19 +18085,17 @@ THREE.ExtrudeGeometry.WorldUVGenerator = {
             n = a.vertices[h].x,
             m = a.vertices[h].y,
             a = a.vertices[h].z;
-        return Math.abs(c - i) < 0.01 ?
-            [
-                new THREE.UV(b, 1 - f),
-                new THREE.UV(d, 1 - e),
-                new THREE.UV(j, 1 - g),
-                new THREE.UV(n, 1 - a)
-            ] :
-            [
-                new THREE.UV(c, 1 - f),
-                new THREE.UV(i, 1 - e),
-                new THREE.UV(l, 1 - g),
-                new THREE.UV(m, 1 - a)
-            ];
+        return Math.abs(c - i) < 0.01 ? [
+            new THREE.UV(b, 1 - f),
+            new THREE.UV(d, 1 - e),
+            new THREE.UV(j, 1 - g),
+            new THREE.UV(n, 1 - a)
+        ] : [
+            new THREE.UV(c, 1 - f),
+            new THREE.UV(i, 1 - e),
+            new THREE.UV(l, 1 - g),
+            new THREE.UV(m, 1 - a)
+        ];
     }
 };
 THREE.ExtrudeGeometry.__v1 = new THREE.Vector2();

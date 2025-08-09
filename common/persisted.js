@@ -1,4 +1,6 @@
-import { get } from "svelte/store";
+import {
+    get
+} from "svelte/store";
 
 const IS_ENABLED =
     true &&

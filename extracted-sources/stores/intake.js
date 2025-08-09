@@ -1,4 +1,7 @@
-import { get, writable } from "svelte/store";
+import {
+    get,
+    writable
+} from "svelte/store";
 
 export const INTAKE_STEP = {
     basics: "basics",
@@ -56,7 +59,11 @@ function notifyModal() {
 
 function createStore() {
     const state = writable(INITAL_STATE);
-    const { subscribe, update, set } = state;
+    const {
+        subscribe,
+        update,
+        set
+    } = state;
 
     return {
         subscribe,
@@ -64,14 +71,20 @@ function createStore() {
             set(INITAL_STATE);
         },
         resetData() {
-            update((state) => ({ ...state, data: INITAL_STATE.data }));
+            update((state) => ({
+                ...state,
+                data: INITAL_STATE.data
+            }));
         },
         update(key, value) {
             if (Object.keys(INITAL_STATE).includes(key) === false) {
                 return;
             }
 
-            update((state) => ({ ...state, [key]: value }));
+            update((state) => ({
+                ...state,
+                [key]: value
+            }));
 
             if (key === "step") {
                 notifyModal();
@@ -80,13 +93,20 @@ function createStore() {
         updateData(key, value) {
             update((state) => ({
                 ...state,
-                data: { ...state.data, [key]: value }
+                data: {
+                    ...state.data,
+                    [key]: value
+                }
             }));
         },
         changeStep(step) {
-            const { slug } = get(state);
+            const {
+                slug
+            } = get(state);
 
-            gtag("event", `financing_modal_step_${step}`, { slug });
+            gtag("event", `financing_modal_step_${step}`, {
+                slug
+            });
 
             this.update("step", step);
         }

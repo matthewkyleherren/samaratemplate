@@ -15676,6 +15676,7 @@
                                 ce.bindFramebuffer(Pe.FRAMEBUFFER, o);
                                 const u = Pe.fenceSync(Pe.SYNC_GPU_COMMANDS_COMPLETE, 0);
                                 return Pe.flush(), await
+
                                 function(e, t, n) {
                                     return new Promise((function(n, i) {
                                         setTimeout((function r() {

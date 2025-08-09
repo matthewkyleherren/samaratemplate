@@ -1,3 +1,5 @@
 const key = Symbol("modal");
 
-export { key };
+export {
+    key
+};

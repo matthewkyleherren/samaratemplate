@@ -13,7 +13,10 @@ export default function synchronized(key, store, filter = (s) => s) {
 
         version = e.detail.version;
 
-        store.update((state) => ({ ...state, ...filter(e.detail.state) }), true);
+        store.update((state) => ({
+            ...state,
+            ...filter(e.detail.state)
+        }), true);
     }
 
     window.addEventListener(`store:sync:${key}`, onSync);
@@ -29,7 +32,11 @@ export default function synchronized(key, store, filter = (s) => s) {
                     version = uniqueIdentifier();
 
                     const event = new CustomEvent(`store:sync:${key}`, {
-                        detail: { state: nextState, id, version }
+                        detail: {
+                            state: nextState,
+                            id,
+                            version
+                        }
                     });
 
                     setTimeout(() => {
