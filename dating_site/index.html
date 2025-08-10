@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Profiles</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #profile-container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            overflow: hidden;
+        }
+        #profile-container img {
+            width: 100%;
+            height: auto;
+        }
+        .profile-info {
+            padding: 16px;
+        }
+        .profile-info h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .profile-info .location {
+            font-size: 16px;
+            color: #65676b;
+            margin-bottom: 12px;
+        }
+        .profile-info .bio {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+        .interests {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .interests li {
+            background-color: #e7f3ff;
+            color: #1877f2;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div id="profile-container">
+        <!-- Profile data will be loaded here by JavaScript -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

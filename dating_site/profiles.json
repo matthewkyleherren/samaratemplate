@@ -1,0 +1,13 @@
+{
+    "name": "Alex Doe",
+    "age": 30,
+    "location": "San Francisco, CA",
+    "bio": "Software engineer with a passion for hiking and photography. Looking for someone to share adventures with.",
+    "interests": [
+        "hiking",
+        "photography",
+        "travel",
+        "cooking"
+    ],
+    "profile_picture_url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+}
