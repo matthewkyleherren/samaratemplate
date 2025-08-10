@@ -4393,7 +4393,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(180deg, #fff 0, #fdfdf7 100%);
-    min-height: unset
+
 }
 
 .backyard .slide .intro-carousel-container {
@@ -4439,7 +4439,8 @@ h1 {
     align-items: center;
     background: var(--color-biege);
     height: auto;
-    min-height: unset
+    justify-content: center;
+
 }
 
 .backyard .slides .intro-carousel .mobile {
@@ -4515,8 +4516,8 @@ h1 {
     box-sizing: border-box;
     background: #fff;
     padding: 0 var(--modern-grid-column-margin);
-    min-height: unset;
-    overflow: hidden
+    overflow: hidden;
+    align-content: space-around;
 }
 
 .backyard .slides .intro-container {
@@ -4649,7 +4650,7 @@ h1 {
     }
 
     .backyard .slides .intro-carousel {
-        min-height: unset
+    
     }
 
     .backyard .slides .intro-carousel .desktop {
@@ -4888,7 +4889,7 @@ h1 {
     background: #263db5;
     aspect-ratio: 1440/750;
     height: auto;
-    min-height: unset
+
 }
 
 .life-with-backyard>a {
@@ -5595,7 +5596,7 @@ h1 {
     background: #fff;
     padding: calc(var(--modern-grid-column-width) + var(--modern-grid-column-gutter)) calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) + var(--modern-grid-column-gutter));
     width: 100vw;
-    min-height: unset !important;
+ !important;
     overflow-x: hidden
 }
 
@@ -5884,7 +5885,7 @@ h1 {
     position: relative;
     background: #fff;
     aspect-ratio: 1440/624;
-    min-height: unset
+
 }
 
 @media (max-width:1024px) {
@@ -6054,7 +6055,7 @@ h1 {
     position: relative;
     flex-direction: column;
     aspect-ratio: 1440/870;
-    min-height: unset
+
 }
 
 .backyard .slides .jealousy .column {
@@ -6217,7 +6218,7 @@ h1 {
     gap: 3px;
     box-sizing: border-box;
     padding: 3px 0 0 3px;
-    min-height: unset
+
 }
 
 .bento-top {
