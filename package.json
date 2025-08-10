@@ -1,0 +1,21 @@
+{
+  "name": "logmin-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"python3 -m http.server 8080\"",
+    "build": "tinacms build",
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tinacms/cli": "^1.10.2",
+    "@tinacms/datalayer": "^1.4.1",
+    "@types/node": "^24.2.1",
+    "tinacms": "^2.8.2",
+    "tinacms-gitprovider-github": "^3.0.1"
+  }
+}
