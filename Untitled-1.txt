@@ -44,7 +44,7 @@ wget -x -nH https://www.samara.com/assets/images/backyard/models/hero-studio-ver
 wget -x -nH https://www.samara.com/assets/images/backyard/models/models-lineup-scroll-model-cant-decide/models-lineup-scroll-model-cant-decide-1000.webp;
 wget -x -nH https://www.samara.com/assets/images/backyard/models/onebed-floorplan-vertical/onebed-floorplan-vertical-2000.webp;
 wget -x -nH https://www.samara.com/assets/images/backyard/models/studio-floorplan-vertical/studio-floorplan-vertical-2000.webp;
-wget -x -nH https://www.samara.com/assets/images/backyard/steps-configure-portrait/steps-configure-portrait-1100.webp;
+wget -x -nH https://www.samara.com/assets/images/backyard/services/01.webp;
 wget -x -nH https://www.samara.com/assets/images/backyard/steps-get-your-keys-portrait/steps-get-your-keys-portrait-1100.webp;
 wget -x -nH https://www.samara.com/assets/images/doorway/configure-portrait/configure-portrait-1200.webp;
 wget -x -nH https://www.samara.com/assets/images/doorway/doorway-fire-resistant-mobile/doorway-fire-resistant-mobile-1200.webp;

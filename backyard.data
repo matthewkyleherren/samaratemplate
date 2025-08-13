@@ -163,7 +163,7 @@
             </p>
             <div class="four-simple-steps-step-media">
                 <div class="four-simple-steps-step-media-touch"></div>
-                <img loading="lazy" srcset="/assets/images/backyard/steps-configure-portrait/steps-configure-portrait-1100.webp 768w, /assets/images/backyard/steps-configure/steps-configure-630.webp" alt="Design yours" width="315" height="396" />
+                <img loading="lazy" srcset="/assets/images/backyard/services/01.webp 768w, /assets/images/backyard/services/01.webp" alt="Design yours" width="315" height="396" />
             </div>
         </div>
     </div>
@@ -181,28 +181,7 @@
             </p>
             <div class="four-simple-steps-step-media">
                 <div class="four-simple-steps-step-media-touch"></div>
-                <video
-                    class="mobile-hidden"
-                    loading="lazy"
-                    muted loop playsinline preload="none"
-                    poster="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/003c536adcae09a8bd60466dd36e3582/thumbnails/thumbnail.jpg?width=400"
-                >
-                    <source
-                        src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/003c536adcae09a8bd60466dd36e3582/downloads/default.mp4"
-                        type="video/mp4"
-                    />
-                </video>
-                <video
-                    class="desktop-hidden"
-                    loading="lazy"
-                    muted loop playsinline preload="none"
-                    poster="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/acec9f3bb8f9e288a93705aadf70bb99/thumbnails/thumbnail.jpg?width=400"
-                >
-                    <source
-                        src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/acec9f3bb8f9e288a93705aadf70bb99/downloads/default.mp4"
-                        type="video/mp4"
-                    />
-                </video>
+                <img loading="lazy" srcset="/assets/images/backyard/services/02.webp 768w, /assets/images/backyard/services/02.webp" alt="Design yours" width="315" height="396" />
             </div>
         </div>
     </div>
@@ -221,28 +200,7 @@
             </p>
             <div class="four-simple-steps-step-media">
                 <div class="four-simple-steps-step-media-touch"></div>
-                <video
-                    class="mobile-hidden"
-                    loading="lazy"
-                    muted loop playsinline preload="none"
-                    poster="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/2c14b9c57ee6ce023bf6264c94d01689/thumbnails/thumbnail.jpg?width=400"
-                >
-                    <source
-                        src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/2c14b9c57ee6ce023bf6264c94d01689/downloads/default.mp4"
-                        type="video/mp4"
-                    />
-                </video>
-                <video
-                    class="desktop-hidden"
-                    loading="lazy"
-                    muted loop playsinline preload="none"
-                    poster="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/10d8c1d596a292ae1725e63a39fca76b/thumbnails/thumbnail.jpg?width=400"
-                >
-                    <source
-                        src="https://customer-rzhtf894oui3z1e3.cloudflarestream.com/10d8c1d596a292ae1725e63a39fca76b/downloads/default.mp4"
-                        type="video/mp4"
-                    />
-                </video>
+                <img loading="lazy" srcset="/assets/images/backyard/services/03.webp 768w, /assets/images/backyard/services/03.webp" alt="Design yours" width="315" height="396" />
             </div>
         </div>
     </div>
@@ -262,7 +220,7 @@
             </p>
             <div class="four-simple-steps-step-media">
                 <div class="four-simple-steps-step-media-touch"></div>
-                <img loading="lazy" srcset="/assets/images/backyard/steps-get-your-keys-portrait/steps-get-your-keys-portrait-1100.webp 768w, /assets/images/backyard/steps-get-your-keys/steps-get-your-keys-630.webp" alt="Get your keys" width="315" height="360" />
+                <img loading="lazy" srcset="/assets/images/backyard/services/04.webp 768w, /assets/images/backyard/services/04.webp" alt="Design yours" width="315" height="396" />
             </div>
         </div>
     </div>
@@ -468,10 +426,10 @@
     <div class="slide backyard-basement">
         <div class="spacer-64"></div>
         <div class="modern-grid">
-    <a class="column-3 l-column-4 m-column-6 doorway-item doorway-item-inverted type-24-light m-type-18-light" href="/showrooms">
+    <a class="column-3 l-column-4 m-column-6 doorway-item doorway-item-inverted type-24-light m-type-18-light" href="#">
         <div class="doorway-item-foreground">
-            <div>Seeing is&nbsp;believing.</div>
-            Find <nobr class="nobr">a&nbsp;showroom <img
+            <div>Building for&nbsp;a living.</div>
+            About <nobr class="nobr">our&nbsp;company <img
                 class="doorway-item-arrow"
                 src="/assets/images/icons/arrow-right-white.svg"
                 width="24"
@@ -482,7 +440,7 @@
         </div>
         <img
             class="doorway-item-background"
-            srcset="/assets/images/doorway/showroom-portrait/showroom-portrait-1200.webp 768w, /assets/images/doorway/showroom-landscape/showroom-landscape-720.webp"
+            srcset="/assets/images/backyard/footer/01.webp 768w, /assets/images/backyard/footer/01.webp"
             alt=""
             loading="lazy"
             width="315"
@@ -490,10 +448,10 @@
         />
     </a>
 
-    <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light m-type-18-light" href="/developers">
+    <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light m-type-18-light" href="#">
         <div class="doorway-item-foreground">
-            <div>Backyard Multiunit.</div>
-            For <nobr class="nobr">developers <img
+            <div>What we do.</div>
+            Our <nobr class="nobr">skills. <img
                 class="doorway-item-arrow"
                 src="/assets/images/icons/arrow-right-black.svg"
                 width="24"
@@ -504,7 +462,7 @@
         </div>
         <img
             class="doorway-item-background"
-            srcset="/assets/images/doorway/multiunit-portrait/multiunit-portrait-1200.webp 768w, /assets/images/doorway/multiunit-landscape/multiunit-landscape-720.webp"
+            srcset="/assets/images/backyard/footer/02.webp 768w, /assets/images/backyard/footer/02.webp"
             alt=""
             loading="lazy"
             width="315"
@@ -512,10 +470,10 @@
         />
     </a>
 
-    <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light l-type-18-light m-type-18-light" href="/backyard/configure">
+    <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light l-type-18-light m-type-18-light" href="#">
         <div class="doorway-item-foreground">
-            <div>Make Backyard&nbsp;yours.</div>
-            Configure <nobr class="nobr">in&nbsp;3D&nbsp;<img
+            <div>Been and&nbsp;built.</div>
+            Some of <nobr class="nobr">our&nbsp;work.&nbsp;<img
                 class="doorway-item-arrow"
                 src="/assets/images/icons/arrow-right-black.svg"
                 width="24"
@@ -526,7 +484,7 @@
         </div>
         <img
             class="doorway-item-background"
-            srcset="/assets/images/doorway/configure-portrait/configure-portrait-1200.webp 768w, /assets/images/doorway/configure-landscape/configure-landscape-720.webp"
+            srcset="/assets/images/backyard/footer/03.webp 768w, /assets/images/backyard/footer/03.webp"
             alt=""
             loading="lazy"
             width="315"
@@ -534,9 +492,9 @@
         />
     </a>
 
-        <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light m-type-18-light" href="/insights/how-we-built-a-fire-resistant-ADU">
+        <a class="column-3 l-column-4 m-column-6 doorway-item type-24-light m-type-18-light" href="#">
 	<div class="doorway-item-foreground">
-		<div>Fire resistant by design.</div>
+		<div>What's news.</div>
 		<nobr class="nobr">Learn more <img
 			class="doorway-item-arrow"
 			src="/assets/images/icons/arrow-right-black.svg"
@@ -548,7 +506,7 @@
 	</div>
 	<img
 		class="doorway-item-background"
-		srcset="/assets/images/doorway/doorway-fire-resistant-mobile/doorway-fire-resistant-mobile-1200.webp 768w, /assets/images/doorway/doorway-fire-resistant/doorway-fire-resistant-720.webp"
+            srcset="/assets/images/backyard/footer/04.webp 768w, /assets/images/backyard/footer/04.webp"
 		alt=""
 		loading="lazy"
 		width="315"
@@ -561,27 +519,25 @@
         <div class="footer-nav footer-nav-variant-light">
     <div class="modern-grid">
         <ul class="column-3">
-                <li><a href="/" class="alt">Samara</a></li>
-                <li><a href="/news">News</a></li>
-                <li><a href="/insights">Insights</a></li>
-                <li><a href="/jobs">Jobs</a></li>
-                <li><a href="/showrooms">Showrooms</a></li>
-                <li><a href="/developers">For Developers</a></li>
+                <li><a href="/" class="alt">Logmin</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">Jobs</a></li>
         </ul>
         <ul class="column-3">
-                <li><a href="/backyard" class="alt">Backyard</a></li>
-                <li><a href="/backyard/models">Models</a></li>
-                <li><a href="/backyard/configure">Design yours</a></li>
-                <li><a href="/backyard/how-it-works">How it works</a></li>
-                <li><a href="/backyard/financing">Financing</a></li>
-                <li><a href="/backyard/faq">FAQ</a></li>
-                <li><a href="/backyard/guides">Local guides</a></li>
+                <li><a href="#" class="alt">Menu</a></li>
+                <li><a href="#">Planning</a></li>
+                <li><a href="#">Construction</a></li>
+                <li><a href="#">Interior design</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Technology</a></li>
         </ul>
         <ul class="column-3">
                 <li><div class="m-spacer-24"></div>Social</li>
-                <li><a href="https://instagram.com/meetsamara" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@meetsamara/" target="_blank">YouTube</a></li>
-                <li><a href="https://www.linkedin.com/company/meetsamara" target="_blank">LinkedIn</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">YouTube</a></li>
+                <li><a href="#" target="_blank">LinkedIn</a></li>
         </ul>
 
         <div class="column-3 m-column-6 footer-contact">
@@ -604,7 +560,7 @@
                 </form>
                 <div class="footer-contact-status">
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-success-note">
-                        <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
+                        <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Logmin updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
                         Something went wrong.<br /><a href="mailto:customercare@logmin.ch?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
@@ -624,8 +580,8 @@
                     <li>“Net zero” may change for build sites with significant shading.</li>
                 </ol>
             <div class="footer-legal-links">
-                    <a href="/privacy-policy">Privacy policy</a>
-                    <a href="/terms-of-service">Terms of service</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms of service</a>
             </div>
         </div>
     </div>
