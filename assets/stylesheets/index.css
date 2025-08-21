@@ -4183,7 +4183,7 @@ h1 {
     position: relative;
     background: var(--color-biege-darker);
     aspect-ratio: 1440/825;
-    min-height: 100vh;
+
     overflow: hidden
 }
 
@@ -10027,7 +10027,7 @@ body.segue {
     display: flex;
     position: relative;
     width: 100vw;
-    min-height: 100vh
+    
 }
 
 .backyard .slides p {
